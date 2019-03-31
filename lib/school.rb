@@ -10,6 +10,10 @@ class School
   def add_student(student_name, grade)
     @roster[grade] = [student_name]
   end
-
   
+  school = School.new('school high')
+  school.roster
+  school.add_student("james", 10)
+  {10=> ["james"]}
+  school.add_student("mohan", 7)
 end
