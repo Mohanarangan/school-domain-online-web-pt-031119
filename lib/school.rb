@@ -18,8 +18,8 @@ class School
     end
   end
   
-  def grade
-    
+  def grade(grade)
+    grade[student_name]
   end
   
     # school = School.new('school high')
