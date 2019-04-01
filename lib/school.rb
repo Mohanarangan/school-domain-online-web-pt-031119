@@ -11,7 +11,7 @@ class School
     if @roster.has_key?(grade)
     @roster[grade] << student_name
     else
-  end
+    end
   end
   
   school = School.new('school high')
