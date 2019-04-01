@@ -17,6 +17,7 @@ class School
       @roster[grade] << student_name
     end
   
+  def grade
   end
   
     # school = School.new('school high')
