@@ -22,7 +22,9 @@ class School
     @roster[student_grade]
   end
   
-  def sort 
+  def sort
+    sorted_list = {}
+    
     
   end
   
