@@ -27,7 +27,7 @@ class School
     
     @roster.each do |grade, student_name|
       sorted_list[grade] = student_name.sort
-      binding.pry
+      #binding.pry
     end
     sorted_list
   end
