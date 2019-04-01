@@ -14,6 +14,7 @@ class School
       @roster[grade] = []
       @roster[grade] << student_name
     end
+    binding.pry
   end
   
     school = School.new('school high')
