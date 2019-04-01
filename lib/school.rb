@@ -22,6 +22,8 @@ class School
     @roster[student_grade]
   end
   
+  
+  
     # school = School.new('school high')
     # school.roster
     # school.add_student("james", 10)
