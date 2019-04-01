@@ -1,5 +1,5 @@
 # code here!
-
+require "pry"
 class School 
   attr_accessor :name , :roster
   
@@ -24,18 +24,13 @@ class School
   
   def sort
     sorted_list = {}
+    binding.pry
     @roster.each do |grade, student_name|
       sorted_list[grade] = student_name.sort
     end
     sorted_list
   end
   
-    # school = School.new('school high')
-    # school.roster
-    # school.add_student("james", 10)
-    # {10=> ["james"]}
-    # school.add_student("mohan", 7)
-    # {10=> ["james"], 7=>["mohan"]}
-    # school.add_student("ice",10)
+   
     
 end
