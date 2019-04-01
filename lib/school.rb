@@ -24,7 +24,8 @@ class School
   
   def sort
     sorted_list = {}
-    
+    @roster.each do |grade, student_name|
+      
     
   end
   
