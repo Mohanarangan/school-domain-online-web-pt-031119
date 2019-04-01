@@ -19,12 +19,12 @@ class School
   
   end
   
-    school = School.new('school high')
-    school.roster
-    school.add_student("james", 10)
-    {10=> ["james"]}
-    school.add_student("mohan", 7)
-    {10=> ["james"], 7=>["mohan"]}
-    school.add_student("ice",10)
+    # school = School.new('school high')
+    # school.roster
+    # school.add_student("james", 10)
+    # {10=> ["james"]}
+    # school.add_student("mohan", 7)
+    # {10=> ["james"], 7=>["mohan"]}
+    # school.add_student("ice",10)
     
 end
